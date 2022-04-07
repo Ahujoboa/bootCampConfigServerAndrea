@@ -1,3 +1,4 @@
+#puerto donde se ejecuta eureka
 server:
   port: 8761
 
@@ -5,7 +6,7 @@ eureka:
   instance:
     hostname: localhost
   client:
-    # false significa no se registre en eurkea el mismo
+    # false significa no se registre en eureka a sí mismo y no hace falta 
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
